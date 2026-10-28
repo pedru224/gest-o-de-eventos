@@ -9,7 +9,7 @@
             <div class="card-body">
                 <h1 class="h4 mb-4">Entrar</h1>
 
-                <form method="POST" action="{{ route('login') }}">
+                <form method="POST" action="{{ route('login.store') }}">
                     @csrf
 
                     <div class="mb-3">
